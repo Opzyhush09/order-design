@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: repeat;
+}
+body{
+    background-color: #E4F1FF;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.Main-box{
+    background-color: #ffff;
+    height: 570px;
+    width:400px ;
+    border-radius: 10px;
+}
+.illustra-img{
+    width: 400px;
+    height: 150x;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+    color:  #0F2C59;;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.85rem;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    color: #0F2C59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-display: bold;
+}
+h5{
+    float: right;
+    margin-right: 53%;
+    padding-top: 5%;
+    font-family: serif;
+}
+pre{
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+    
+}
+.Plan-view{
+    background-color: #E4F1FF;
+    width: 270px;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    
+}
+.icon-img{
+    padding-top: 5%;
+    width: 40px;
+}
+.grid{
+    display: flex;
+    margin: 0;
+}
+.price{
+    float: left;
+    color: gray;
+    margin-top: 0.004px;
+    margin-left: 53%;
+    font-family: serif;
+
+}
+.span{
+    color:  rgb(87, 87, 207);
+    padding-left: 185%;
+    margin-top: 0.10px;
+    font-size: 1rem;
+}
+.btn{
+    background-color: rgb(87, 87, 207);
+    width: 270px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;  
+    border: none;
+    border-radius: 13px;  
+    color: #ffff;
+    box-shadow: 100%;
+
+}
